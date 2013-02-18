@@ -132,4 +132,7 @@ class AbstractDQItemImpl extends AbstractDQItem {
 				itemFound = false;
 		}
 	}
+	public save(target) {
+		def con = new AbstractProfileConnectionImpl(target)
+	}
 }
